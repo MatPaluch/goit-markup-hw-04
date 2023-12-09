@@ -139,6 +139,7 @@ body {
 
 .hero-image {
   background-color: var(--NAVY-BLUE);
+  opacity: 70%;
   padding: 188px 0;
 }
 .hero-image-container {
@@ -146,6 +147,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-image: url("/images/people-office-background.png");
 }
 .title-header {
   font-size: 56px;
