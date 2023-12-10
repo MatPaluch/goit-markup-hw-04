@@ -246,10 +246,10 @@ body {
   justify-content: center;
   align-items: center;
   padding: 24px 0;
+  margin-bottom: 8px;
 }
 .goals-header {
   margin-bottom: 8px;
-  margin-top: 8px;
 }
 
 /*  ---------SECTION THIRD------- */
