@@ -149,9 +149,9 @@ body {
   max-width: 1440px;
   background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url("../images/people-office.jpg"), var(--NAVY-BLUE);
-  background-size: contain;
-  background-position: center;
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-image-container {
@@ -375,7 +375,7 @@ body {
   display: block;
 }
 .shadow-list:hover,
-.shadow-list:active {
+.shadow-list:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
