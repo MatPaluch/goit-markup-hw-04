@@ -373,6 +373,7 @@ body {
 }
 .shadow-list {
   display: block;
+  cursor: pointer;
 }
 .shadow-list:hover,
 .shadow-list:focus {
