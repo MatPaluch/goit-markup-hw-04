@@ -371,30 +371,21 @@ body {
 .image-position {
   width: calc((100% - 48px) / 3);
 }
-.image-position:hover {
-  background: var(--WHITE, #fff);
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-}
-.image-position:hover::before {
-  content: "14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App";
-  color: var(--CLOUD, #f4f4fd);
-  background-color: var(--IRIS, #4d5ae5);
-  width: 360px;
-  height: 300px;
+.shadow-list {
   display: block;
-  padding: 40px 32px;
 }
+.shadow-list:hover,
+.shadow-list:active {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 .image-description {
   padding: 32px 16px;
   border: 1px solid var(--CORNFLOWER);
   border-top: none;
 }
-.image-description:hover {
-  border: 1px solid var(--CLOUD, #f4f4fd);
-  border-top: none;
-}
+
 .header-second-portfolio {
   font-weight: 500;
   font-size: 20px;
