@@ -67,7 +67,10 @@ body {
 
 .body-header {
   background-color: var(--WHITE);
-  border-bottom: 1px solid #e7e9fc;
+  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 .header-container {
   display: flex;
@@ -187,6 +190,9 @@ body {
 }
 /*  ---------HEADERS CONFIG + DESC ------- */
 
+.header-margin {
+  margin-bottom: 72px;
+}
 .header-second {
   font-size: 36px;
   line-height: 1.11;
@@ -233,7 +239,7 @@ body {
 .goals-list {
   width: calc((100% - 72px) / 4);
 }
-.antena-svg {
+.container-svg {
   border-radius: 4px;
   background: var(--CLOUD, #f4f4fd);
   display: flex;
@@ -251,9 +257,6 @@ body {
 .section-third {
   padding-bottom: 120px;
 }
-.section-third-header {
-  margin-bottom: 72px;
-}
 .section-third-list {
   display: flex;
   gap: 24px;
@@ -262,13 +265,13 @@ body {
   width: calc((100% - 48px) / 3);
 }
 
+/*  ---------SECTION FOURTH------- */
+
 .section-fourth {
   background-color: var(--CLOUD);
   padding: 120px 0;
 }
-.our-team {
-  margin-bottom: 72px;
-}
+
 .team-list {
   display: flex;
   gap: 24px;
@@ -290,6 +293,26 @@ body {
 .member-role {
   text-align: center;
 }
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+/*  ---------SECTION FIVE------- */
+
+.section-five {
+  padding: 120px 0;
+}
+.company-list {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+/*  ---------FOOTER------- */
 
 .footer-section {
   background-color: var(--NAVY-BLUE);
