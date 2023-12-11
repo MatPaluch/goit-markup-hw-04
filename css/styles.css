@@ -340,6 +340,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: var(--LIGHT-SLATE, #8e8f99);
+}
+.company-link:hover,
+.company-link:focus {
+  color: var(--OCEAN, #404bbf);
+  border-color: var(--OCEAN, #404bbf);
+}
+.icon-company {
+  fill: currentColor;
 }
 
 /*  ---------FOOTER------- */
@@ -350,6 +359,7 @@ body {
 }
 .footer-div {
   display: flex;
+  align-items: baseline;
 }
 .logo-container {
   margin-right: 120px;
@@ -368,10 +378,10 @@ body {
 .p-social {
   color: var(--WHITE, #fff);
   margin-bottom: 16px;
+  font-weight: 500;
 }
 .footer-social-list {
-  display: inline-flex;
-  align-items: flex-start;
+  display: flex;
   gap: 16px;
 }
 .footer-element-list {
