@@ -292,6 +292,7 @@ body {
 }
 .member-role {
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .social-list {
@@ -300,6 +301,23 @@ body {
   align-items: center;
   gap: 24px;
 }
+.member-social-element {
+  width: 40px;
+  height: 40px;
+}
+.member-social-link {
+  width: 100%;
+  height: 100%;
+  background-color: var(--IRIS, #4d5ae5);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.member-social-link:hover,
+.member-social-link:focus {
+  background-color: var(--OCEAN, #404bbf);
+}
 
 /*  ---------SECTION FIVE------- */
 
@@ -307,9 +325,21 @@ body {
   padding: 120px 0;
 }
 .company-list {
-  display: inline-flex;
-  align-items: flex-start;
+  display: flex;
   gap: 24px;
+}
+.company-element {
+  height: 88px;
+  width: 100%;
+}
+.company-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  border: 1px solid var(--LIGHT-SLATE, #8e8f99);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*  ---------FOOTER------- */
@@ -317,6 +347,12 @@ body {
 .footer-section {
   background-color: var(--NAVY-BLUE);
   padding: 100px 0;
+}
+.footer-div {
+  display: flex;
+}
+.logo-container {
+  margin-right: 120px;
 }
 .footer-logo-link {
   display: inline-block;
@@ -328,6 +364,35 @@ body {
 .footer-descrip {
   max-width: 264px;
   color: var(--CLOUD);
+}
+.p-social {
+  color: var(--WHITE, #fff);
+  margin-bottom: 16px;
+}
+.footer-social-list {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+.footer-element-list {
+  height: 40px;
+  width: 40px;
+}
+.icon-svg {
+  fill: var(--CLOUD, #f4f4fd);
+}
+.social-link {
+  width: 100%;
+  height: 100%;
+  background-color: var(--IRIS, #4d5ae5);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--GREEN, #31d0aa);
 }
 
 /*------------ Portfolio ------------*/
